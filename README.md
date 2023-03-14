@@ -3,6 +3,7 @@
 1. Make sure to rename the folder from mdt-main to mdt and then ensure mdt on your resources list. Also disable any other mdt script you are using.
 2. Run the user_mdt SQL in your database.
 3. Inside sv_mdt on line 15 you will be able to change the job required to use the mdt (default is police, only one job rn).
+4. To bring up the mdt use /aa in chat and itll bring up an animation as if you were pulling out a notebook or notepad.
 
 If anyones wants to see what it looks like click these links below
 https://i.imgur.com/opJkIdX.png
