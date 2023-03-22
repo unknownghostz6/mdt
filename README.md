@@ -13,5 +13,5 @@ https://i.imgur.com/5sI4xtI.png
 https://i.imgur.com/Jp6yOWH.png
 
 
-More In Depth Version from i3ucky in link below:
+More In Depth Version made by i3ucky in link below:
 https://github.com/i3ucky/bucky_mdt
