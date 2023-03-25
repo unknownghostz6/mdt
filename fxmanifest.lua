@@ -15,15 +15,13 @@ files {
     "ui/mugshot.png"
 }
 
-server_script "sv_mdt.lua"
+server_scripts {
+    'sv_mdt.lua',
+    'version.lua',
+}
 
-client_script "cl_mdt.lua"
+client_scripts {
+    'cl_mdt.lua',
+}
 
---======================================= VERSION CHECK =====================================================--
-
-version '1.1'
-vorp_checker 'yes'
-vorp_name '^4Resource version Check^3'
-vorp_github 'https://github.com/unknownghostz6/mdt'
-
---===========================================================================================================--
+version '1.2'
