@@ -1,4 +1,4 @@
-local isVisible = fals
+local isVisible = false
 
 
 local prop = nil
