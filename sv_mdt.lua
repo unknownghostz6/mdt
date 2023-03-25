@@ -5,14 +5,16 @@ TriggerEvent("getCore",function(core)
     VorpCore = core
 end)
 
-RegisterCommand("aa", function(source, args)
+RegisterCommand(""..Config.Command.."", function(source, args)
     local _source = source
     local Character = VorpCore.getUser(_source).getUsedCharacter
     local job = Character.job
 	local jobgrade = Character.jobGrade
 	local officername = (Character.firstname.. " " ..Character.lastname)
-
-	if job == 'police' or 'ranger' or 'marshal' or 'sheriff' then 
+	local job_access = false
+        for k,v in pairs(Config.Jobs) do
+            if job == v then
+                job_access = true
 		exports.ghmattimysql:execute("SELECT * FROM (SELECT * FROM `mdt_reports` ORDER BY `id` DESC LIMIT 3) sub ORDER BY `id` DESC", {}, function(reports)
     		for r = 1, #reports do
     			reports[r].charges = json.decode(reports[r].charges)
@@ -26,6 +28,10 @@ RegisterCommand("aa", function(source, args)
     		end)
     	end)
 	end
+ end
+        if job_access == false then
+            return false
+        end
 end)
 
 RegisterServerEvent("mdt:getOffensesAndOfficer")
