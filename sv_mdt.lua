@@ -1,4 +1,4 @@
-local VorpCore = {}
+local VorpCor = {}
 VORP = exports.vorp_core:vorpAPI()
 
 TriggerEvent("getCore",function(core)
