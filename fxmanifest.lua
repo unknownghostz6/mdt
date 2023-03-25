@@ -20,8 +20,13 @@ server_scripts {
     'version.lua',
 }
 
+shared_scripts {
+    'config.lua',
+}
+
 client_scripts {
+    'config.lua',
     'cl_mdt.lua',
 }
 
-version '1.3'
+version '1.4'
