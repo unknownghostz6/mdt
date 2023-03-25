@@ -48,7 +48,7 @@ Version.checkRelease = function (resourcename, repo)
     })
 end
 
-Version.checkRelease(GetCurrentResourceName(), 'https://github.com/unknownghostz6/westerntheme-mdt')
+Version.checkRelease(GetCurrentResourceName(), 'https://github.com/unknownghostz6/mdt')
 
 exports('Version',function()
     return Version
