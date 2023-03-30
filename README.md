@@ -12,5 +12,6 @@ https://i.imgur.com/q6s5cBV.png
 https://i.imgur.com/5sI4xtI.png
 https://i.imgur.com/Jp6yOWH.png
 
-## More in Depth Version made by i3ucky available at:
+## More in Depth Version made by i3ucky available at (if for some reason bucky_mdt doesnt work use ghost_mdt):
 https://github.com/i3ucky/bucky_mdt  
+https://github.com/unknownghostz6/ghost_mdt
